@@ -1,1 +1,1 @@
-IWT project|Life insuarance management system|HTML|CSS|JS|PHP
+IWT project|Life insurance management system|HTML|CSS|JS|PHP
