@@ -1,0 +1,54 @@
+/* CSS for News Detail Page */
+
+.news-details{
+    display: flex;
+}
+.news-detail-container {
+    display: flex;
+    padding: 20px;
+    margin-left: 225px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .news-detail-image {
+    flex: 0 0 auto;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-detail-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .news-detail-content {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .news-detail-description {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .news-detail-back-link {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .news-detail-back-link:hover {
+    text-decoration: underline;
+  }
+  

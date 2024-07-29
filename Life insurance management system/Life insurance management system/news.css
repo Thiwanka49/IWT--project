@@ -1,0 +1,205 @@
+/* Navbar */
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply your styles */
+  body {
+    background-color: #1A1E26;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    background-color: #324359;
+    padding: 20px;
+    margin-top: 15px;
+    /* Add additional styles for the content section */
+  }
+  
+  footer {
+    background-color: #5ABFA3;
+    padding: 20px;
+    /* Add additional styles for the footer */
+  }
+  .footer-content{
+    width: 90%;
+    height: auto;
+    margin-left: 58px
+  }
+  /* Footer styles */
+footer {
+    background-color: #5ABFA3;
+    padding: 40px 0;
+    color: #FFF;
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1 0 300px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .contact span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .social a {
+    color: #FFF;
+    margin-right: 10px;
+  }
+  
+  .links ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact-form .btn-primary {
+    background-color: #3D4073;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    background-color: #3D4F73;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .banner-slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .slider-container {
+    display: flex;
+    width: 400%; /* Modify the width to 400% to accommodate 4 slides */
+    height: 100%;
+    transition: transform 0.5s ease; /* Add a smooth transition effect */
+  }
+  
+  .slide {
+    flex: 0 0 25%; /* Use flex to ensure each slide takes up 25% of the container */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slider-prev,
+  .slider-next {
+    background-color: #3D4073;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .slider-prev:focus,
+  .slider-next:focus {
+    outline: none;
+  }
+
+  .banner-slider{
+    margin-top: 45px;
+  }
+  
+ /* Content */
+.content {
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.content h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.news {
+  display: flex;
+  background-color: #3D4F73;
+  color: #FFF;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.news img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.news-content {
+  flex-grow: 1;
+}
+
+.news h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.news p {
+  margin-bottom: 15px;
+}
+
+.news a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .news-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+  

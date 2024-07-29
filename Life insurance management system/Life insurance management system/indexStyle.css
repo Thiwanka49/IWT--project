@@ -1,0 +1,163 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply your styles */
+  body {
+    background-color: #1A1E26;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    background-color: #324359;
+    padding: 20px;
+    /* Add additional styles for the content section */
+  }
+  
+  footer {
+    background-color:  #5ABFA3;
+    padding: 20px;
+    /* Add additional styles for the footer */
+  }
+  .footer-content{
+    width: 90%;
+    height: auto;
+    margin-left: 58px;
+    background-color:  #5ABFA3;
+  }
+  /* Footer styles */
+footer {
+    background-color:  #5ABFA3;
+    padding: 40px 0;
+    color: #FFF;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1 0 300px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .contact span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .social a {
+    color: #FFF;
+    margin-right: 10px;
+  }
+  
+  .links ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact-form .btn-primary {
+    background-color: #3D4073;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    background-color: #3D4F73;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /*--main banners slid show (start)--*/
+/*--main banners slid show (start)--*/
+.slid{
+  width: 1470px;
+  height: 700px;
+  margin-left: 5px;
+  margin-top: 25px;
+  overflow: hidden;
+}
+#slider
+{
+    overflow: hidden;
+}
+#slider figure
+{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: 25s slider infinite;
+    overflow: hidden;
+}
+#slider figure img
+{
+    width: 20%;
+    height: 700px;
+    float: left;
+    overflow: hidden;
+}
+
+@keyframes slider{
+    0%{left: 0;}
+    20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+
+}
+/*--main banners slid show (end)--*/
+
+.about-us {
+  background-color: #3D4073;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+  
